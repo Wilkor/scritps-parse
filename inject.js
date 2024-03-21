@@ -1,7 +1,5 @@
+setInterval(() => {
 
-(setInterval(() => {
-
-   alert('oi')
     const e = document.querySelector(".chat-list");
 
     if (e.dataset.hasWatcher) return;
@@ -37,5 +35,5 @@ window.addEventListener("message", async (event) => {
         return n.apply(this, e)
     }, t.dataset.hasOverride = "true"
 
-}))();
+});
 
