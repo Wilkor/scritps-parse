@@ -37,3 +37,6 @@ window.addEventListener("message", async (event) => {
 
 });
 
+function teste (){
+   alert('oi')
+}
