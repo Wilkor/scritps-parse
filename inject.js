@@ -36,7 +36,3 @@ window.addEventListener("message", async (event) => {
     }, t.dataset.hasOverride = "true"
 
 });
-
-function teste (){
-   alert('oi')
-}
