@@ -1,6 +1,6 @@
 setInterval(() => {
 
-
+   alert('oi')
     const e = document.querySelector(".chat-list");
 
     if (e.dataset.hasWatcher) return;
