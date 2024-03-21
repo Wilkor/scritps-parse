@@ -18,6 +18,10 @@ setInterval(() => {
 
 }, 1e3)
 
+function teste(){
+
+   alert('oi')
+}
 
 window.addEventListener("message", async (event) => {
     const data = event.data
