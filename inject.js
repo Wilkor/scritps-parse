@@ -1,4 +1,5 @@
-setInterval(() => {
+
+(setInterval(() => {
 
    alert('oi')
     const e = document.querySelector(".chat-list");
@@ -18,11 +19,6 @@ setInterval(() => {
 
 }, 1e3)
 
-function teste(){
-
-   alert('oi')
-}
-
 window.addEventListener("message", async (event) => {
     const data = event.data
     const t = document.querySelector(".pane-chat-message-input");
@@ -41,5 +37,5 @@ window.addEventListener("message", async (event) => {
         return n.apply(this, e)
     }, t.dataset.hasOverride = "true"
 
-});
+}))();
 
